@@ -13,7 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>by: Grupo empresarial I.S.D.</h1>
+        <h1>by: Grupo financiero I.S.D.</h1>
       </main>
     </div>
   );

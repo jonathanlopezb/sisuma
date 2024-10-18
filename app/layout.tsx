@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "SISUMA - Creditos al instante.",
-  description: "Somos una empresa de créditos especializada en ofrecer soluciones financieras rápidas y seguras. Ofrecemos préstamos personales, empresariales y tarjetas de crédito, adaptados a tus necesidades, con tasas competitivas y plazos flexibles. Nuestro compromiso es facilitarte el acceso a financiamiento para que alcances tus metas de manera eficiente y sin complicaciones.",
+  description: "Somos una empresa de créditos especializada en ofrecer soluciones financieras rápidas y seguras. Nuestro compromiso es facilitarte el acceso a financiamiento para que alcances tus metas de manera eficiente y sin complicaciones.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
