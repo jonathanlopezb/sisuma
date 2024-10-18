@@ -13,6 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
+        by: Grupo empresarial I.S.D.
       </main>
     </div>
   );
