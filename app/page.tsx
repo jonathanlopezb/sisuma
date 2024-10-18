@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import logo from "./assets/img/IMG_6756.png"
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>by: Grupo financiero I.S.D.</h1>
+        <button>
+          <Link href="cuenta.sisuma.com.co">
+        </button>
       </main>
     </div>
   );
